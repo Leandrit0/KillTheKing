@@ -1,8 +1,8 @@
 # KillTheKing
 A custom kill the king with events not finished.
 
-Okey to not have errors in the project you need:
+Okey to not have errors in the project use this:
 Lombok https://mvnrepository.com/artifact/org.projectlombok/lombok/1.18.12 
-And PaperSpigot 1.7.10 or 1.8.8
+PaperSpigot any version.
+and gson.
 
-if you have errors need gson or delete mkremins folder.
