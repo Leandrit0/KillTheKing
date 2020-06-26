@@ -17,13 +17,13 @@ public class KillTheKing extends JavaPlugin {
 
 	@Override
 	public void onEnable() {
-		instance = this;
-        Bukkit.getPluginManager().registerEvents(new KingListener(), this);
+           instance = this;
+           Bukkit.getPluginManager().registerEvents(new KingListener(), this);
 	}
 
 	@Override
 	public void onDisable() {
-		instance = null;
+	    instance = null;
 	}
 	
 }
