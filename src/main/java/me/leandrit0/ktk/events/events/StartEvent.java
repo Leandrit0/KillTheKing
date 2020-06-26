@@ -17,7 +17,6 @@ public class StartEvent extends KillTheKingEvent implements Cancellable {
 
 	@Override
 	public boolean isCancelled() {
-		
 		return this.cancelled;
 	}
 

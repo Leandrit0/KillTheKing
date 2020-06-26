@@ -37,6 +37,7 @@ public class KingListener implements Listener {
 
 	@EventHandler
 	public void onCreate(StartEvent event) {
+		KillTheKing.getInstance().getKingManager().setKing(event.getPlayer());
 		Bukkit.broadcastMessage(ChatColor.GREEN + event.getPlayer().getName() + " Is The King.");
 	}
 

@@ -7,7 +7,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import lombok.Getter;
 import me.leandrit0.ktk.listeners.KingListener;
 import me.leandrit0.ktk.manager.KingManager;
-import me.leandrit0.ktk.utils.command.CommandRegistrer;
 
 @Getter
 @Setter
@@ -19,7 +18,6 @@ public class KillTheKing extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		instance = this;
-        new CommandRegistrer();
         Bukkit.getPluginManager().registerEvents(new KingListener(), this);
 	}
 
